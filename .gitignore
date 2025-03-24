@@ -1,0 +1,12 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build files (if using a build system)
+node_modules/
+dist/
+assets/css/*.map
+
+# Ignore WordPress-generated files
+debug.log
+*.log
