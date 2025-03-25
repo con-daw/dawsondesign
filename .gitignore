@@ -6,7 +6,7 @@ Thumbs.db
 node_modules/
 dist/
 assets/css/*.map
-
+package-lock.json
 # Ignore WordPress-generated files
 debug.log
 *.log
