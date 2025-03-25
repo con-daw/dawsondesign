@@ -1,0 +1,119 @@
+{
+  "fields": [
+    {
+      "key": "field_hero_title",
+      "label": "Hero Title",
+      "name": "hero_title",
+      "type": "text",
+      "instructions": "Enter the main title for the hero section.",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_hero_content",
+      "label": "Hero Content",
+      "name": "hero_content",
+      "type": "textarea",
+      "instructions": "Enter the content for the hero section.",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "maxlength": "",
+      "rows": ""
+    },
+    {
+      "key": "field_hero_image",
+      "label": "Hero Image",
+      "name": "hero_image",
+      "type": "image",
+      "instructions": "Upload the image for the hero section.",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "preview_size": "medium",
+      "library": "all",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": ""
+    },
+    {
+      "key": "field_section_one_title",
+      "label": "Section One Title",
+      "name": "section_one_title",
+      "type": "text",
+      "instructions": "Enter the title for section one.",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_section_one_content",
+      "label": "Section One Content",
+      "name": "section_one_content",
+      "type": "textarea",
+      "instructions": "Enter the content for section one.",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "maxlength": "",
+      "rows": ""
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "front-page-custom.php"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": ""
+}
