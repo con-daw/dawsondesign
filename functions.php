@@ -11,3 +11,21 @@ function register_front_page_template($templates) {
     return $templates;
 }
 add_filter('theme_page_templates', 'register_front_page_template');
+
+function create_case_study_post_type() {
+    register_post_type('case_study',
+        array(
+            'labels' => array(
+                'name' => __('Case Studies'),
+                'singular_name' => __('Case Study'),
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'case-studies'),
+            'show_in_rest' => true,
+            'supports' => array('title', 'editor', 'thumbnail', 'custom-fields'),
+            'menu_icon' => 'dashicons-clipboard',
+        )
+    );
+}
+add_action('init', 'create_case_study_post_type');
