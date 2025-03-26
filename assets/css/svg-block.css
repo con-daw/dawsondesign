@@ -1,0 +1,38 @@
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+.card img {
+    aspect-ratio: 1;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+    gap: 1rem;
+    margin-inline: auto;
+    max-width: 1440px;
+    padding: 4rem;
+}
+.card {
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+.upper {
+    background-color: black;
+    aspect-ratio: 1;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cpath%20d%3D%22M5%2C0H95A5%2C5%200%2C0%2C1%20100%2C5V95A5%2C5%200%2C0%2C1%2095%2C100H65A5%2C5%200%2C0%2C1%2060%2C95L60%2C85A5%2C5%200%2C0%2C0%2055%2C80L5%2C80A5%2C5%200%2C0%2C1%200%2C75V5A5%2C5%200%2C0%2C1%205%2C0Z%22%20fill%3D%22%23fff%22%20%2F%3E%3C%2Fsvg%3E")
+    no-repeat center / contain;
+    mask: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cpath%20d%3D%22M5%2C0H95A5%2C5%200%2C0%2C1%20100%2C5V95A5%2C5%200%2C0%2C1%2095%2C100H65A5%2C5%200%2C0%2C1%2060%2C95L60%2C85A5%2C5%200%2C0%2C0%2055%2C80L5%2C80A5%2C5%200%2C0%2C1%200%2C75V5A5%2C5%200%2C0%2C1%205%2C0Z%22%20fill%3D%22%23fff%22%20%2F%3E%3C%2Fsvg%3E")
+    no-repeat center / contain;
+}
+
+.lower {
+    background-color: black;
+    aspect-ratio: 1;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cpath%20d%3D%22M5%2C0H52A5%2C5%200%2C0%2C1%2057%2C5L57%2C15A5%2C5%200%2C0%2C0%2062%2C20L95%2C20A5%2C5%200%2C0%2C1%20100%2C25V95A5%2C5%200%2C0%2C1%2095%2C100H5A5%2C5%200%2C0%2C1%200%2C95V5A5%2C5%200%2C0%2C1%205%2C0Z%22%20fill%3D%22%23fff%22%20%2F%3E%3C%2Fsvg%3E")
+    no-repeat center / contain;
+    mask: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cpath%20d%3D%22M5%2C0H52A5%2C5%200%2C0%2C1%2057%2C5L57%2C15A5%2C5%200%2C0%2C0%2062%2C20L95%2C20A5%2C5%200%2C0%2C1%20100%2C25V95A5%2C5%200%2C0%2C1%2095%2C100H5A5%2C5%200%2C0%2C1%200%2C95V5A5%2C5%200%2C0%2C1%205%2C0Z%22%20fill%3D%22%23fff%22%20%2F%3E%3C%2Fsvg%3E")
+    no-repeat center / contain;
+    margin-top: -17%;
+}

@@ -1,4 +1,6 @@
 {
+  "key": "group_front_page_fields",
+  "title": "Front Page Fields",
   "fields": [
     {
       "key": "field_hero_title",

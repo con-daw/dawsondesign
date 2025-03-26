@@ -7,8 +7,8 @@
 </head>
 <body <?php body_class(); ?>>
 <header>
-    <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-    <nav>
+    <nav class="flex justify-between items-center p-[15px] ">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="Logo">
         <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
     </nav>
 </header>
